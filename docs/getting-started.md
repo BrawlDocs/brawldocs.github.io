@@ -40,7 +40,7 @@ Most builds have a Wii and Dolphin version, depending on whether you are playing
 
 ---
 
-## Modding Basics
+## Build Setup
 
 So you've picked a build, and hopefully you've gotten it up-and-running to at least test it out. Now, you're interested in actually modifying the build. This section will help you begin to understand how to do that.
 
@@ -70,6 +70,6 @@ _An example of what the filesystem might look like._
 
 Different mods are installed in different parts of the filesystem. Mods and tools should have their own documentation on where you need to navigate to install them.
 
-### Downloading Mods
+### Modding Basics
 
-There are a few different places where you can find mods to use in your build. See [Where to Get Mods](where-to-get-mods.md) for a list of the most popular locations.
+Now that you have your environment set up, you can get started on doing basic modding tasks. If you're trying to download mods, you should check out the various sites in the [Where to Get Mods](where-to-get-mods.md) page. If you're looking for a quick-and-easy way to install mods you find online, try [BrawlInstaller](tools?id=brawlinstaller). If you have mods that require more manual installation, or you just want to get started editing Brawl's files, make sure you have [BrawlCrate](tools?id=brawlcrate).
