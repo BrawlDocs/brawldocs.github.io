@@ -1,0 +1,3 @@
+- [Welcome](README.md)
+- [Getting Started](getting-started.md)
+- [Where to Get Mods](where-to-get-mods.md)
