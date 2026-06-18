@@ -14,6 +14,12 @@ PSA is a sort of pseudo-coded scripting language. When working with PSA, you are
 
 _Example of some PSA scripting._
 
+Fighter PSA is located within the fighter's main PAC file, usually located in `pf/{fighterName}/{fighterName}.pac`, where {fighterName} is replaced with the fighter's name. When this file is viewed in BrawlCrate, the actual PSA data can be found in `Misc Data [0]`.
+
+<img src="images/FighterPacExample.png" alt="An example of a fighter PAC" width="700"/>
+
+_Example of a fighter PAC. Misc Data [0] generally contains the actual PSA code for the fighter._
+
 #### PSA Resources
 - [PSACompressor](tools?id=psacompressor) - The primary tool for editing fighter PSA.
 
@@ -23,3 +29,5 @@ _Example of some PSA scripting._
 ## Modules
 
 Like most things in Brawl, fighters also have code stored in their [modules](coding?id=modules). While PSA controls the high-level functionality of the fighter linked to their animations, modules dictate what functionality is available for the fighter to use in PSA.
+
+Fighter modules can be found in `pf/module` within a build, and usually are named `ft_{fighterName}.rel`, where {fighterName} is the fighter's name.
