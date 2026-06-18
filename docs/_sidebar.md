@@ -1,4 +1,7 @@
 - [Welcome](README.md)
 - [Getting Started](getting-started.md)
 - [Where to Get Mods](where-to-get-mods.md)
+- Modding the Game
+    - [Movesets](movesets.md)
+    - [Coding](coding.md)
 - [Tools](tools.md)
