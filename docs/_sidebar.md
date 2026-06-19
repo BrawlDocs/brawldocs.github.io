@@ -3,5 +3,6 @@
 - [Where to Get Mods](where-to-get-mods.md)
 - Modding the Game
     - [Movesets](movesets.md)
+    - [Stages](stages.md)
     - [Coding](coding.md)
 - [Tools](tools.md)

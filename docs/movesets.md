@@ -1,6 +1,8 @@
 # Movesets
 
-This section goes over some of the essentials to understand modding movesets.
+This section goes over some of the essentials to understand moveset modding in Brawl. Due to the extensive nature of moveset modding, this page serves mostly as a landing spot, linking more detailed resources.
+
+Movesets are the lifeblood of a fighter - they control everything that happens when you press a button during a match. Which animations play, the shape and size of hitboxes, the sounds and graphics that display - with moveset modding, you can control all of these things.
 
 ---
 
