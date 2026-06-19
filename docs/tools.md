@@ -2,8 +2,6 @@
 
 There are various tools involved in Brawl modding. This section will go over the most popular and useful tools.
 
----
-
 ## General-Purpose Modding Tools
 
 ### BrawlCrate

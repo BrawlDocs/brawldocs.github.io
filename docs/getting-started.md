@@ -2,8 +2,6 @@
 
 This section will go over how to get started modding Brawl for those with little-to-no experience.
 
----
-
 ## Starter Builds
 
 To get started modding Brawl, the first thing you need to do is decide what kind of **build** you want to use as a base for your mods. In most games, everyone is working with a similar baseline - the vanilla game. However, over the years, the Brawl modding scene has grown and shifted tremendously, resulting in numerous different builds with their own goals, features, characters, and gameplay. As such, unless you want to reinvent the wheel, it's a good idea to pick a build that aligns closely to your own goals and start with that.
@@ -37,8 +35,6 @@ Most builds have a Wii and Dolphin version, depending on whether you are playing
 <img src="images/Brawl.png" alt="Brawl Logo" width="500"/>
 
 [KJP's vBrawl build](https://drive.google.com/file/d/1sNiVAk2UwAVTXFbjwx4ee0eCyUfp4Bfv/view) is an as-of-yet unnamed build that adds the BrawlEx engine and other modern quality-of-life features to vanilla Brawl. Though it is a bit outdated in terms of features compared to the other builds listed here, unlike those builds, it features vanilla Brawl gameplay, and it does have most of the quality-of-life features you might need to make modding easier. It does also still allow up to 128 characters with 50 costumes each. Use this build if you want a vanilla-like experience with some added customization.
-
----
 
 ## Build Setup
 

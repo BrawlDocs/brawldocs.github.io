@@ -1,8 +1,16 @@
 - [Welcome](README.md)
 - [Getting Started](getting-started.md)
 - [Where to Get Mods](where-to-get-mods.md)
-- Modding the Game
-    - [Movesets](movesets.md)
-    - [Stages](stages.md)
-    - [Coding](coding.md)
+- Fighters
+    - [PSA](psa.md)
+    - [Fighter Modules](fighter-modules.md)
+- Stages
+    - [Stage Slots](stage-slots.md)
+    - [Stage PACs](stage-pacs.md)
+    - [Stage Modules](stage-modules.md)
+    - [Random Stage Switch](random-stage-switch.md)
+- Coding
+    - [Codes](codes.md)
+    - [Modules](modules.md)
+    - [Syriinge](syriinge.md)
 - [Tools](tools.md)
