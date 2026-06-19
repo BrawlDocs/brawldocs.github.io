@@ -53,6 +53,8 @@ Like above, gets the full address from the designated location. This overwrites 
 `[R_PPC_REL24]`
 When used after a branch instruction such as b or bl, this command replaces the branch location with the location specified in the command. This is useful for making function calls, for example, allowing you to branch to a location in another file to execute code from that file. Generally, you should place this after instructions that branch to an `__unresolved` label so that if the relcommand fails to be found it can branch to a default function in your module.
 
+---
+
 #### Module Resources
 - [reltools](tools?id=reltools) - Used to disassemble and reassemble module REL files.
 - [Ghidra](tools?id=ghidra) - Used to navigate the game's code to better understand it for your modifications.

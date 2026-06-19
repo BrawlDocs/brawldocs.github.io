@@ -30,5 +30,7 @@ Every stage has collision data, which controls the stage's collision behavior wi
 
 Some stages have an effect bank. This effect bank is usually named something like `ef_StgBattlefield`, where `Battlefield` is the name of the stage. This is not always accurate, however. The effect bank is at the root of the PAC file in it's own archive.
 
+---
+
 #### Stage PAC Guides
 - [Brawl/PM Stage Modding Tutorial](https://www.youtube.com/watch?v=COikXif5cQ4) by Electropolitan - A detailed video guide on how to create your own stage, this video focuses on how to construct the stage mostly within the PAC file.

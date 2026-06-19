@@ -6,6 +6,8 @@ Because Syriinge plugins are so dynamic and can be written in C++, they are very
 
 Syriinge plugins are generally included in the `pf/plugins` folder of a build. When plugins are installed to this location, if the build has Syriinge integrated, they should be applied automatically.
 
+---
+
 #### Syriinge Resources
 - [Syriinge](https://github.com/Sammi-Husky/Syriinge) - The Syriinge frameworkf or creating plugins.
 - [Ghidra](tools?id=ghidra) - Used to navigate the game's code to better understand it for your modifications.

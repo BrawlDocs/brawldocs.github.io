@@ -8,6 +8,8 @@ Stage modules are generally located in `pf/module` and usually named something l
 
 Unlike other modules, stage modules have been fully decompiled, meaning new modules can be created from scratch in C++. See the coding [modules](modules.md) section for more details.
 
+---
+
 #### Stage Module Resources
 - [BrawlStageModule](https://github.com/ilazoja/BrawlStageModule) repository by ilazoja - A repository of custom stage modules written in C++. A great resource if you want to create your own stage modules in C++.
 - [BrawlHeaders](https://github.com/Sammi-Husky/BrawlHeaders) - Repository of header files containing Brawl functions. Useful for identifying what functions are available for use, and necessary when creating custom modules.

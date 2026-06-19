@@ -25,6 +25,8 @@ If you get a message indicating it compiled successfully, your code changes shou
 
 It is possible to disable a code if you wish to keep it present in your build but don't want it to activate while playing the game. To do so, locate the code in its respective `.txt` or `.asm` file and simply place a `!` at the start of the code's name. For example, if you wish to disable the code `Stock/Frame Control not disabled in 300% Mode 1.1 [wiiztec]` in `RSBE01.txt`, you would simply rename it to `!Stock/Frame Control not disabled in 300% Mode 1.1 [wiiztec]`.
 
+---
+
 #### Codes Resources
 - [GCTRealMate](tools?id=gctrealmate) - Used to compile ASM codes to a GCT file that can be read by the game.
 - [Ghidra](tools?id=ghidra) - Used to navigate the game's code to better understand it for your modifications.

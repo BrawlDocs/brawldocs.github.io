@@ -14,6 +14,8 @@ Fighter PSA is located within the fighter's main PAC file, usually located in `p
 
 _Example of a fighter PAC. Misc Data [0] generally contains the actual PSA code for the fighter._
 
+---
+
 #### PSA Resources
 - [PSACompressor](tools?id=psacompressor) - The primary tool for editing fighter PSA.
 
