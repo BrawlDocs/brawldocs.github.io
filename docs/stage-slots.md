@@ -81,6 +81,12 @@ Param files can be edited in BrawlCrate. Here is a quick overview of what the fi
 - **MemoryAllocation** - The amount of extra memory to allocate for the stage module to use. Whatever number is entered here will be subtracted from the stage's memory pool and made accessible for the module to load resources in the `StageResource` heap. Generally only used when you have custom module behavior.
 - **WildSpeed** - Stage speed modifier when "Wild Mode" is enabled in builds that have it.
 
+### Stage Soundbank Variants
+
+Stage soundbanks can actually be named slightly differently from regular soundbanks - you can add `_` followed by the param to the soundbank name to make it so different params load different soundbanks. For example, if you wanted a custom param called `Battlefield_ML_01` to load it's own soundbank with ID `0x51`, you would create a `sawnd` file named `051_Battlefield_ML_01.sawnd`.
+
+If no soundbank is found with a name matching your specific param, the original soundbank would be used instead. For example, in the aforementioned scenario, if you did not have a `051_Battlefield_ML_01.sawnd`, the stage would instead load `051.sawnd`.
+
 ### Substages
 
 Param files also allow you to add **substages**. Substages allow you to load different PAC files based on certain criteria when your stage is selected, rather than loading one fixed PAC file. For example, you can use substages to set up a stage that randomly selects between a couple different PAC files, and stages like Castle Siege use it for their stage transformation functionality.

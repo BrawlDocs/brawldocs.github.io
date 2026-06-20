@@ -15,6 +15,7 @@
     - [Random Stage Switch](random-stage-switch.md)
 - Music and Sound
     - [Soundbanks](soundbanks.md)
+    - [Music](music.md)
 - GFX
     - WIP
 - UI
@@ -28,5 +29,7 @@
 - Modded Systems
     - WIP
 - [Tools](tools.md)
+- Data
+    - [Soundbank IDs](data/soundbank-ids.md)
 - [Misc Resources](misc-resources.md)
 - Community
