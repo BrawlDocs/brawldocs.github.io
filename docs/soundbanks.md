@@ -45,7 +45,7 @@ You can also export a sound from the BRSAR. Simply select the sound and click th
 
 !> This section is only relevant if your build uses the Replacement Soundbank Engine
 
-Most modern builds use a Replacement Soundbank Engine (RSBE). This system makes it so that soundbanks can each be stored as individual files instead of being stored in one large BRSAR file. These files are `.sawnd` files, and are usually located in `pf/sfx`.
+Most modern builds use a [Replacement Soundbank Engine (RSBE)](replacement-soundbank-engine.md). This system makes it so that soundbanks can each be stored as individual files instead of being stored in one large BRSAR file. These files are `.sawnd` files, and are usually located in `pf/sfx`.
 
 SAWND files correspond directly to a soundbank. You can modify them in Super Sawndz, but they require you to first open `smashbros_sound.brsar` in the program. After opening them, you can use the **Input File** field to select a sawnd file and then click **Insert**. This will automatically replace the matching soundbank within the BRSAR with your sawnd file. You can then edit it in Super Sawndz like normal. Once your edits are done, you can export the sawnd using the **Create Sawnd** button underneath the sound info, saving it to a location of your choosing.
 
@@ -58,4 +58,8 @@ SAWND files are named differently depending on the build. Older builds use the *
 #### Soundbank Resources
 
 - [Soundbank IDs](data/soundbank-ids.md) - A list of soundbank IDs.
-- [JOJI's site](http://ssbbhack.web.fc2.com/index.html) - Contains useful lists of soundbank and SFX IDs, including soundbank IDs custom soundbanks as part of the soundbank expansion system.
+- [JOJI's site](http://ssbbhack.web.fc2.com/index.html) - Contains useful lists of soundbank and SFX IDs, including soundbank IDs custom soundbanks as part of the [soundbank expansion](soundbankexpansion.md) system.
+
+#### Soundbank Guides
+
+- [Adding Announcer Calls via WAVE ID Intercept](https://docs.google.com/document/d/16uGL3kjiVhLYmJqSe07bXAbcMKB1jWFkwKmh6uIo-T4/edit?tab=t.0#heading=h.3folz9v4fvzp) by QuickLava - A guide to add brand-new announcer calls to the announcer soundbank. Some of this knowledge can also be used generally for adding new sounds to any bank.

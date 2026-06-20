@@ -1,18 +1,18 @@
 # Stage Slots
 
-Every stage exists within a stage **slot**. If you're using vanilla Brawl, these stage slots and their IDs are hardcoded for each stage. If you're using a custom build with the Stage Expansion system, these slots are determined either by an ASM table or a custom `RSS` file.
+Every stage exists within a stage **slot**. If you're using vanilla Brawl, these stage slots and their IDs are hardcoded for each stage. If you're using a custom build with the [Stage File System](stageexpansion.md), these slots are determined either by an ASM table or a custom `RSS` file.
 
 Stage slots are essentially made up of a couple of IDs. The **stage ID** is used to identify the stage throughout the game's code. The **cosmetic ID** is used to identify which cosmetics are associated with the stage.
 
 ## Stage Table
 
-!> Requires the Stage Expansion system!
+!> Requires the Stage File System!
 
-If you're using vanilla Brawl, stage slots and their IDs are hardcoded, so there isn't anything you can do to change them. However, if you're using a custom build with the Stage Expansion system, which stages are available is controlled by a **stage table**. The stage table lists all of the stage IDs and their corresponding cosmetic IDs. Where the stage table is stored depends on the build.
+If you're using vanilla Brawl, stage slots and their IDs are hardcoded, so there isn't anything you can do to change them. However, if you're using a custom build with the Stage File System, which stages are available is controlled by a **stage table**. The stage table lists all of the stage IDs and their corresponding cosmetic IDs. Where the stage table is stored depends on the build.
 
 ### ASM Stage Table
 
-If your build is on an older version of the Stage Expansion system, your stage table is most likely located in an ASM file, usually named `StageTable.asm` in `Source/Project+`. It's usually labeled `TABLE_STAGES` within this file.
+If your build is on an older version of the Stage File System, your stage table is most likely located in an ASM file, usually named `StageTable.asm` in `Source/Project+`. It's usually labeled `TABLE_STAGES` within this file.
 
 <img src="images/StageTableExample.png" alt="An example of a stage table in StageTable.asm" width="700"/>
 
@@ -40,15 +40,15 @@ When you add a stage to a page, you need to expand the number associated with th
 
 ### RSS Stage Table
 
-If your build is on the latest version of the Stage Expansion system, your stage table is instead stored in `RSS` files in your build. These files are located in `pf/stage/switch` generally, and end in a `.rss` extension. Each of these files represents a different stage list preset which you can switch between on the random stage switch submenu in the rules menu in-game. Each RSS file has its own table which will be used when that preset is loaded.
+If your build is on the latest version of the Stage File System, your stage table is instead stored in `RSS` files in your build. These files are located in `pf/stage/switch` generally, and end in a `.rss` extension. Each of these files represents a different stage list preset which you can switch between on the random stage switch submenu in the rules menu in-game. Each RSS file has its own table which will be used when that preset is loaded.
 
 BrawlCrate does not currently support RSS files. As such, if you want to modify what stages are in your table, you must use [BrawlInstaller](tools?id=brawlinstaller).
 
 ## ASL Files
 
-!> Requires the Stage Expansion system!
+!> Requires the Stage File System!
 
-If your build uses the Stage Expansion system, then your build implements customizable `.asl` files that are used to determine what stage [params](#param-files) to use when certain buttons are pressed. ASL files are found in `pf/stage/stageslot` in most builds. The name of each ASL file lines up with the **stage ID** in your stage table. For example, if I wanted to open the ASL file for Battlefield (ID 0x01), I would open `01.asl`.
+If your build uses the Stage File System, then your build implements customizable `.asl` files that are used to determine what stage [params](#param-files) to use when certain buttons are pressed. ASL files are found in `pf/stage/stageslot` in most builds. The name of each ASL file lines up with the **stage ID** in your stage table. For example, if I wanted to open the ASL file for Battlefield (ID 0x01), I would open `01.asl`.
 
 <img src="images/ASLFileExample.png" alt="An example of what an ASL file looks like in BrawlCrate" width="700"/>
 
@@ -62,9 +62,9 @@ If an entry has no buttons set, it will be used if the player selects the stage 
 
 ## Param Files
 
-!> Requires the Stage Expansion system!
+!> Requires the Stage File System!
 
-If your build uses the Stage Expansion system, then instead of stage details (such as PACs and modules) being hardcoded, they are controlled with customizable `.param` files. These files can be found in `pf/stage/stageinfo`, and are generally named after the stage.
+If your build uses the Stage File System, then instead of stage details (such as PACs and modules) being hardcoded, they are controlled with customizable `.param` files. These files can be found in `pf/stage/stageinfo`, and are generally named after the stage.
 
 <img src="images/StageParamExample.png" alt="An example of a stage param file" width="700"/>
 
@@ -73,7 +73,7 @@ Param files can be edited in BrawlCrate. Here is a quick overview of what the fi
 - **IsFixedCamera** - If true, the camera will remain in a fixed position at all times and will not move.
 - **IsSlowStart** - If true, the stage will be slowed down during the match start countdown.
 - **StageName** - The name used for the stage's PAC file, prepended with `STG`. For example, if this field is `Battlefield`, then when this param is selected, `STGBATTLEFIELD.pac` will load.
-- **TrackList** - The name of the tracklist to load for this stage. For example, if this field is `Battlefield`, then when is param is selected, songs from `Battlefield.tlst` will play.
+- **TrackList** - The name of the [tracklist](music?id=tracklists) to load for this stage. For example, if this field is `Battlefield`, then when is param is selected, songs from `Battlefield.tlst` will play.
 - **Module** - The module to load for this stage. This is the full filename of the module - for example, `st_battle.rel`.
 - **CharacterOverlay** - An RGB color to be overlayed over all characters when the stage is played.
 - **SoundBank** - The [soundbank](soundbanks.md) to load when the stage is played. This is the soundbank InfoIndex.
@@ -128,9 +128,9 @@ There are a few other properties in the param file relevant to substages. They a
 
 ## List Alts
 
-!> Requires the latest Stage Expansion system!
+!> Requires the latest Stage File System!
 
-With the latest Stage Expansion system, you have the ability to add **list alts** to any stage. These alts are accessible by pressing **L+Start** or **R+Start** while hovering over the actual stage icon on the stage select screen (SSS). This functionality only works if you actually set up list alts for the stage.
+With the latest Stage File System, you have the ability to add **list alts** to any stage. These alts are accessible by pressing **L+Start** or **R+Start** while hovering over the actual stage icon on the stage select screen (SSS). This functionality only works if you actually set up list alts for the stage.
 
 List alts are a good way to add even more alts to your stage beyond alts accessed with special button presses. It is scalable and allows an effectively endless number of alts per stage.
 

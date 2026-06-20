@@ -1,6 +1,6 @@
 # Effect.pac IDs
 
-This is a list of Effect.pac IDs in both vanilla Brawl and enabled by the Effect.pac Roster Expansion System.
+This is a list of Effect.pac IDs in both vanilla Brawl and enabled by the [Effect.pac Roster Expansion System](effectpacexpansion.md).
 
 | Effect.pac          | ID  |
 | ------------------- | --- |

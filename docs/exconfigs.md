@@ -2,7 +2,7 @@
 
 !> This section is only applicable if you're using a BrawlEx build
 
-**EX Configs** are configuration files used by BrawlEx to map fighters to IDs and properties so the game knows which characters to load and what to do with them. Every fighter, in theory, should have 4 configs - each of a different type - although some of the values of these configs are hardcoded into BrawlEx, so vanilla fighters can sometimes be missing some and still function correctly. When adding a new fighter, you'll need to make sure they have these configs as well.
+**EX Configs** are configuration files used by [BrawlEx](brawlex.md) to map fighters to IDs and properties so the game knows which characters to load and what to do with them. Every fighter, in theory, should have 4 configs - each of a different type - although some of the values of these configs are hardcoded into BrawlEx, so vanilla fighters can sometimes be missing some and still function correctly. When adding a new fighter, you'll need to make sure they have these configs as well.
 
 There are 4 types of configs:
 - FighterConfig

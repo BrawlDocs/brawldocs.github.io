@@ -1,3 +1,5 @@
+<img src="BrawlDocs_Logo.png" width="25"></img>
+<span style="font-size: 1.5em; color:#8594cc;">BrawlDocs</span>
 - General
     - [Home](README.md)
     - [Getting Started](getting-started.md)
@@ -28,6 +30,11 @@
     - [Syriinge](syriinge.md)
 - Mod Projects
     - [BrawlEx](brawlex.md)
+    - [Effect.pac Roster Expansion System](effectpacexpansion.md)
+    - [Soundbank Expansion System](soundbankexpansion.md)
+    - [Stage File System](stageexpansion.md)
+    - [Replacement Soundbank Engine](replacement-soundbank-engine.md)
+    - [Custom Sound Engine](custom-sound-engine.md)
 - [Tools](tools.md)
 - Data
     - [Soundbank IDs](data/soundbank-ids.md)

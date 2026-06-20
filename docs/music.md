@@ -12,7 +12,7 @@ You can create BRSTM files using a number of different programs, including [Loop
 
 !> Tracklists are only available in builds that use the Custom Sound Engine (CSE)
 
-Most modern builds use the Custom Sound Engine (CSE), allowing you to extensively modify the songs that appear in-game. Songs are controlled mostly via **tracklists**, which are essentially files that hold a list of what BRSTMs can play when that tracklist is loaded.
+Most modern builds use the [Custom Sound Engine (CSE)](custom-sound-engine.md), allowing you to extensively modify the songs that appear in-game. Songs are controlled mostly via **tracklists**, which are essentially files that hold a list of what BRSTMs can play when that tracklist is loaded.
 
 Tracklists are usually located in `pf/sound/tracklist`, and end with the `.tlst` extension. They can be opened in BrawlCrate.
 

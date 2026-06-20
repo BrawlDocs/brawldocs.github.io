@@ -4,7 +4,7 @@ This is a list of soundbank IDs (in info index format) used in vanilla Brawl.
 
 This list originates from the old OpenSA wiki by Dantarion.
 
-If your build uses the Soundbank Expansion system, there are also additional soundbanks available ranging from 0x144 to 0x243. These are all clones of Snake's soundbank. Their SFX IDs start at 0x4000 and each bank has 0xA4 sounds.
+If your build uses the [Soundbank Expansion System](soundbankexpansion.md), there are also additional soundbanks available ranging from 0x144 to 0x243. These are all clones of Snake's soundbank. Their SFX IDs start at 0x4000 and each bank has 0xA4 sounds.
 
 ## Common
 
