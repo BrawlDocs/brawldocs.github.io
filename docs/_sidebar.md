@@ -17,7 +17,7 @@
     - [Soundbanks](soundbanks.md)
     - [Music](music.md)
 - GFX
-    - WIP
+    - [Effect Banks](effectbanks.md)
 - UI
     - [Cosmetics](cosmetics.md)
 - Trophies
@@ -26,11 +26,12 @@
     - [Codes](codes.md)
     - [Modules](modules.md)
     - [Syriinge](syriinge.md)
-- Modded Systems
-    - WIP
+- Mod Projects
+    - [BrawlEx](brawlex.md)
 - [Tools](tools.md)
 - Data
     - [Soundbank IDs](data/soundbank-ids.md)
     - [Song IDs](data/song-ids.md)
+    - [Effect.pac IDs](data/effectpac-ids.md)
 - [Misc Resources](misc-resources.md)
 - Community

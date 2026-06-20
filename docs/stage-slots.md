@@ -76,8 +76,8 @@ Param files can be edited in BrawlCrate. Here is a quick overview of what the fi
 - **TrackList** - The name of the tracklist to load for this stage. For example, if this field is `Battlefield`, then when is param is selected, songs from `Battlefield.tlst` will play.
 - **Module** - The module to load for this stage. This is the full filename of the module - for example, `st_battle.rel`.
 - **CharacterOverlay** - An RGB color to be overlayed over all characters when the stage is played.
-- **SoundBank** - The soundbank to load when the stage is played. This is the soundbank InfoIndex.
-- **EffectBank** - The ID of the effect bank the stage uses. This must match up with the effect bank name in the PAC file.
+- **SoundBank** - The [soundbank](soundbanks.md) to load when the stage is played. This is the soundbank InfoIndex.
+- **EffectBank** - The ID of the [effect bank](effectbanks.md) the stage uses. This must match up with the effect bank name in the PAC file.
 - **MemoryAllocation** - The amount of extra memory to allocate for the stage module to use. Whatever number is entered here will be subtracted from the stage's memory pool and made accessible for the module to load resources in the `StageResource` heap. Generally only used when you have custom module behavior.
 - **WildSpeed** - Stage speed modifier when "Wild Mode" is enabled in builds that have it.
 
