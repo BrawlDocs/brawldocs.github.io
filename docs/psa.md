@@ -16,6 +16,8 @@ _Example of a fighter PAC. Misc Data [0] generally contains the actual PSA code 
 
 ---
 
+# Resources
+
 #### PSA Resources
 - [PSACompressor](tools?id=psacompressor) - The primary tool for editing fighter PSA.
 

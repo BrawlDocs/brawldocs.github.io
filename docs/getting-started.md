@@ -36,6 +36,8 @@ Most builds have a Wii and Dolphin version, depending on whether you are playing
 
 [KJP's vBrawl build](https://drive.google.com/file/d/1sNiVAk2UwAVTXFbjwx4ee0eCyUfp4Bfv/view) is an as-of-yet unnamed build that adds the BrawlEx engine and other modern quality-of-life features to vanilla Brawl. Though it is a bit outdated in terms of features compared to the other builds listed here, unlike those builds, it features vanilla Brawl gameplay, and it does have most of the quality-of-life features you might need to make modding easier. It does also still allow up to 128 characters with 50 costumes each. Use this build if you want a vanilla-like experience with some added customization.
 
+If you're using this build, you may want to also grab some pre-configured ex configs and portraits for it located [here](https://www.mediafire.com/file/d1hhvtqygz4q7ao/BrawlBuild-ExConfigs.zip/file). The build normally loads these from the Brawl disk, but for modding, it is convenient to have these files on the SD card. You can simply extract the zip file and drop the folder onto your build and replace files when prompted to set this up.
+
 ## Build Setup
 
 So you've picked a build, and hopefully you've gotten it up-and-running to at least test it out. Now, you're interested in actually modifying the build. This section will help you begin to understand how to do that.
@@ -66,6 +68,6 @@ _An example of what the filesystem might look like._
 
 Different mods are installed in different parts of the filesystem. Mods and tools should have their own documentation on where you need to navigate to install them.
 
-### Modding Basics
+### Conclusion
 
-Now that you have your environment set up, you can get started on doing basic modding tasks. If you're trying to download mods, you should check out the various sites in the [Where to Get Mods](where-to-get-mods.md) page. If you're looking for a quick-and-easy way to install mods you find online, try [BrawlInstaller](tools?id=brawlinstaller). If you have mods that require more manual installation, or you just want to get started editing Brawl's files, make sure you have [BrawlCrate](tools?id=brawlcrate).
+Now that you have your environment set up, you can get started on doing basic modding tasks. If you're trying to download and install mods, you should check out the various sites in the [Installing Mods](installing-mods.md) page. If you have mods that require more manual installation, or you just want to get started editing Brawl's files, make sure you have [BrawlCrate](tools?id=brawlcrate). If you're interested in learning about modding generally, check out the other sections on this site.

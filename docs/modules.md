@@ -55,6 +55,8 @@ When used after a branch instruction such as b or bl, this command replaces the 
 
 ---
 
+# Resources
+
 #### Module Resources
 - [reltools](tools?id=reltools) - Used to disassemble and reassemble module REL files.
 - [Ghidra](tools?id=ghidra) - Used to navigate the game's code to better understand it for your modifications.

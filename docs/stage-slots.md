@@ -6,6 +6,8 @@ Stage slots are essentially made up of a couple of IDs. The **stage ID** is used
 
 ## Stage Table
 
+!> Requires the Stage Expansion system!
+
 If you're using vanilla Brawl, stage slots and their IDs are hardcoded, so there isn't anything you can do to change them. However, if you're using a custom build with the Stage Expansion system, which stages are available is controlled by a **stage table**. The stage table lists all of the stage IDs and their corresponding cosmetic IDs. Where the stage table is stored depends on the build.
 
 ### ASM Stage Table
@@ -44,6 +46,8 @@ BrawlCrate does not currently support RSS files. As such, if you want to modify 
 
 ## ASL Files
 
+!> Requires the Stage Expansion system!
+
 If your build uses the Stage Expansion system, then your build implements customizable `.asl` files that are used to determine what stage [params](#param-files) to use when certain buttons are pressed. ASL files are found in `pf/stage/stageslot` in most builds. The name of each ASL file lines up with the **stage ID** in your stage table. For example, if I wanted to open the ASL file for Battlefield (ID 0x01), I would open `01.asl`.
 
 <img src="images/ASLFileExample.png" alt="An example of what an ASL file looks like in BrawlCrate" width="700"/>
@@ -57,6 +61,8 @@ The easiest way to edit these button flags is using the checkboxes displayed bel
 If an entry has no buttons set, it will be used if the player selects the stage without holding any buttons.
 
 ## Param Files
+
+!> Requires the Stage Expansion system!
 
 If your build uses the Stage Expansion system, then instead of stage details (such as PACs and modules) being hardcoded, they are controlled with customizable `.param` files. These files can be found in `pf/stage/stageinfo`, and are generally named after the stage.
 
@@ -113,3 +119,51 @@ There are a few other properties in the param file relevant to substages. They a
 - **IsDualLoad** - Used by Castle Siege. If true, the substage PAC file will be loaded alongside the main PAC file.
 - **IsDualShuffle** - Used by Lylat Cruise. If true, a randomly chosen substage PAC file will be loaded alongside the main PAC file.
 - **IsOldSubstage** - Unknown
+
+## List Alts
+
+!> Requires the latest Stage Expansion system!
+
+With the latest Stage Expansion system, you have the ability to add **list alts** to any stage. These alts are accessible by pressing **L+Start** or **R+Start** while hovering over the actual stage icon on the stage select screen (SSS). This functionality only works if you actually set up list alts for the stage.
+
+List alts are a good way to add even more alts to your stage beyond alts accessed with special button presses. It is scalable and allows an effectively endless number of alts per stage.
+
+<img src="images/ListAltScreenshot.png" alt="An example of a stage with list alts in a custom build" width="700"/>
+
+_The menu shown when you press R+Start on a custom stage with list alts set up._
+
+### ASL Entries
+
+If you want to add a list alt for your stage, the first thing you must do is add an entry to the [ASL file](#asl-files). This is added the same way as other ASL entries, but the **ButtonFlags** field is set differently. 
+
+The ButtonFlags value starts at `0x4000` for alts that should display when **R+Start** is pressed and `0x8000` for alts that should display when **L+Start** is pressed. Then, you should add a number equal to the index the alt will display at in the list, zero-indexed. So, if this is the first alt in your L+Start list, it would be `0x8000`, because the first item in the list has an index of 0. If it was the second item in your L+Start list, it would be `0x8001` instead.
+
+<img src="images/ListAltExample.png" alt="Example of a list alt setup in an ASL file" width="700"/>
+
+_A basic list alt setup. In this example, the highlighted entry is the first list alt to display._
+
+Just like any other ASL entry, the name of the entry determines what param will be loaded when the alt is selected.
+
+### Bin File Setup
+
+In addition to setting up the list alt, you need to add a bin file to your build. You can create a copy of [this sample file](https://www.mediafire.com/file/4dfsa4khg9rr826/st_00_sample.bin/file) to use, or alternatively you can use any bin file created with the Stage Builder in-game or use any bin file from [Project+](getting-started?id=project).
+
+Bin files are generally located in `pf/stage/stagelist`. The folders in this directory align to the stage's ASL slot ID, appended with `_L` for L+Start alts, and `_R` for R+Start alts. For example, a Battlefield stage with an ID of `0x01` would have it's L+Start list alts located at `pf/stage/stagelist/01_L`.
+
+Any bin files in one of these folders will be displayed in the list when L+Start or R+Start are pressed on the stage. The stages are presented based on their _alphabetical order_ in the operating system, which means if you don't name your files correctly, they could be displayed out of order. As such, it's recommended to name them in a format of `st_XX_AltName`, where `XX` is the index (zero-indexed) of the alt in the list, and `AltName` is an arbitrary name you'd like to place on the bin file. Note that bin file names cannot be longer than 18 characters or the stage will not be displayed.
+
+<img src="images/ListAltFolderScreenshot.png" alt="Example of a folder with a list alt in it" width="700"/>
+
+Note that at this time, BrawlCrate cannot modify these bin files. To change the thumbnail and name that is displayed on your stage in the list, use [BrawlInstaller](tools?id=brawlinstaller). BrawlInstaller will also handle saving the bin files in the correct place for you automatically, so you don't need to do these steps manually.
+
+---
+
+# Resources
+
+#### Stage Slot Resources
+
+- [Sample Bin File](https://www.mediafire.com/file/4dfsa4khg9rr826/st_00_sample.bin/file) - A sample bin file to use for setting up list alts if your build supports them.
+
+#### Stage Slot Guides
+
+- [Project+ stage managing guide](https://docs.google.com/document/d/19TnQceFG2_9NQJ1Dyz3JCWLVBrKePcgBoiDW0pgW8qA/edit?tab=t.0) by mawwwk - A guide on how to set up stages manually.

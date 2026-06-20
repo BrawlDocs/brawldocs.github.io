@@ -8,6 +8,8 @@ Syriinge plugins are generally included in the `pf/plugins` folder of a build. W
 
 ---
 
+# Resources
+
 #### Syriinge Resources
 - [Syriinge](https://github.com/Sammi-Husky/Syriinge) - The Syriinge frameworkf or creating plugins.
 - [Ghidra](tools?id=ghidra) - Used to navigate the game's code to better understand it for your modifications.

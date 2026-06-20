@@ -1,7 +1,10 @@
-- [Welcome](README.md)
-- [Getting Started](getting-started.md)
-- [Where to Get Mods](where-to-get-mods.md)
+- General
+    - [Welcome](README.md)
+    - [Getting Started](getting-started.md)
+    - [Installing Mods](installing-mods.md)
+    - [Git](git-setup.md)
 - Fighters
+    - [EX Configs](exconfigs.md)
     - [PSA](psa.md)
     - [Fighter Modules](fighter-modules.md)
 - Stages
@@ -9,8 +12,18 @@
     - [Stage PACs](stage-pacs.md)
     - [Stage Modules](stage-modules.md)
     - [Random Stage Switch](random-stage-switch.md)
+- Music and Sound
+    - WIP
+- GFX
+    - WIP
+- UI
+    - [Cosmetics](cosmetics.md)
 - Coding
     - [Codes](codes.md)
     - [Modules](modules.md)
     - [Syriinge](syriinge.md)
+- Modded Systems
+    - WIP
 - [Tools](tools.md)
+- [Misc Resources](misc-resources.md)
+- Community

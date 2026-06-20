@@ -4,11 +4,15 @@ If you're using the latest version of the Stage Expansion system, you can also m
 
 ## RSS Files
 
+!> Requires the latest Stage Expansion system!
+
 **RSS** files control which stages are listed on the stage select screen, which stages are available from random stage selection, and which stages have hazards enabled or disabled by default. These files are located in `pf/stage/switch` in the build. They are named `Switch##.rss`, where `##` is the index (in hexadecimal format) of the preset that will load that switch file. For example, `Switch00.rss` would be the RSS file that's loaded by default, while `Switch01.rss` would be the first preset you can switch to from the RSS screen. `SwitchFF.rss` is the exception to this - this file is always the default in netplay only, rather than using `Switch00.rss`.
 
 RSS files cannot currently be edited using BrawlCrate. However, [BrawlInstaller](tools?id=BrawlInstaller) can edit these files like any other stage list. See the BrawlInstaller wiki for more information.
 
 ## Presets
+
+!> Requires the latest Stage Expansion system!
 
 The modern Stage Expansion system lets you have multiple RSS **presets**, each tied to an RSS file. These presets can be swapped between from the RSS screen in-game using L or R. Pressing these buttons cycles through the presets, changing what stages are available on the stage list, in random, and which stages have hazards enabled.
 
