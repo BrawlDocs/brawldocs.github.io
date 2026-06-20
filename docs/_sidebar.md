@@ -1,8 +1,9 @@
 - General
-    - [Welcome](README.md)
+    - [Home](README.md)
     - [Getting Started](getting-started.md)
     - [Installing Mods](installing-mods.md)
     - [Git](git-setup.md)
+    - [Extracting Brawl Files](extracting-brawl-files.md)
 - Fighters
     - [EX Configs](exconfigs.md)
     - [PSA](psa.md)
@@ -13,11 +14,13 @@
     - [Stage Modules](stage-modules.md)
     - [Random Stage Switch](random-stage-switch.md)
 - Music and Sound
-    - WIP
+    - [Soundbanks](soundbanks.md)
 - GFX
     - WIP
 - UI
     - [Cosmetics](cosmetics.md)
+- Trophies
+    - WIP
 - Coding
     - [Codes](codes.md)
     - [Modules](modules.md)
