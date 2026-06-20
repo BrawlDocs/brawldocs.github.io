@@ -41,4 +41,4 @@
     - [Song IDs](data/song-ids.md)
     - [Effect.pac IDs](data/effectpac-ids.md)
 - [Misc Resources](misc-resources.md)
-- Community
+- [Community](community.md)
