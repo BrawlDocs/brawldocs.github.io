@@ -31,5 +31,6 @@
 - [Tools](tools.md)
 - Data
     - [Soundbank IDs](data/soundbank-ids.md)
+    - [Song IDs](data/song-ids.md)
 - [Misc Resources](misc-resources.md)
 - Community

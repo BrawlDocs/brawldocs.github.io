@@ -2,6 +2,10 @@
 
 Miscellanous resources and guides useful when modding the game.
 
+## Resources
+
+- [Smash RE Docs](https://brawlre.github.io/public/) by fudgepop - A site with data on various aspects of Brawl that have been reverse-engineered over time. This was a resource for much of the information on this site.
+
 ## Guides
 
 - [Reducing Build File Sizes](https://docs.google.com/document/d/1sgA3Lr5IC4IVLWmuJOFLWj_FyKG7tP7jJy49eWTR_Z4/edit?usp=sharing) - A guide on reducing the size of various files in a build, generally used to solve crashes that occur when you add too many characters.
