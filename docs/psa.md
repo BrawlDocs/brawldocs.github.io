@@ -20,6 +20,7 @@ _Example of a fighter PAC. Misc Data [0] generally contains the actual PSA code 
 
 #### PSA Resources
 - [PSACompressor](tools?id=psacompressor) - The primary tool for editing fighter PSA.
+- [BrawlItemEditor](tools?id=brawlitemeditor) - The primary tool for editing item scripting. Items are frequently used for fighters.
 
 #### PSA Guides
 - [PSA Coding Guide](https://gamebanana.com/mods/533181) by Montimers - A series of PDFs explaining PSA coding at a high level, this is the best starting point for learning PSA.

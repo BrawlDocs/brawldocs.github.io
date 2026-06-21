@@ -35,6 +35,8 @@
     - [Stage File System](stageexpansion.md)
     - [Replacement Soundbank Engine](replacement-soundbank-engine.md)
     - [Custom Sound Engine](custom-sound-engine.md)
+    - [ItemEx](itemex.md)
+    - [Subspace Emissary EX](subspaceex.md)
 - [Tools](tools.md)
 - Data
     - [Soundbank IDs](data/soundbank-ids.md)
