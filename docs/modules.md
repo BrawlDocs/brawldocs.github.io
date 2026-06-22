@@ -55,7 +55,7 @@ When used after a branch instruction such as b or bl, this command replaces the 
 
 ---
 
-# Resources
+## Resources
 
 #### Module Resources
 - [reltools](tools?id=reltools) - Used to disassemble and reassemble module REL files.

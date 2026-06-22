@@ -10,7 +10,9 @@ Trace IDs for custom banks start at 140 for the first trace in the first bank an
 
 Most modern builds integrate this system.
 
-# Resources
+---
+
+## Resources
 
 #### Effect.pac Roster Expansion System Resources
 

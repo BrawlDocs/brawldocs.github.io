@@ -27,7 +27,7 @@ It is possible to disable a code if you wish to keep it present in your build bu
 
 ---
 
-# Resources
+## Resources
 
 #### Codes Resources
 - [GCTRealMate](tools?id=gctrealmate) - Used to compile ASM codes to a GCT file that can be read by the game.

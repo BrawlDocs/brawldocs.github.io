@@ -12,7 +12,9 @@ ItemEx allows:
 
 ItemEx is used by builds like [Project+](getting-started?id=project) to add new items, such as the Double Cherry item, and is also used in builds like [P+Ex](getting-started?id=pex) and [REX](getting-started?id=rex) to add complex projectiles to characters that wouldn't otherwise be able to use them.
 
-# Resources
+---
+
+## Resources
 
 #### ItemEx Resources
 

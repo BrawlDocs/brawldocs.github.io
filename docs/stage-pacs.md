@@ -32,7 +32,7 @@ Some stages have an effect bank. This effect bank is usually named something lik
 
 ---
 
-# Resources
+## Resources
 
 #### Stage PAC Guides
 - [Brawl/PM Stage Modding Tutorial](https://www.youtube.com/watch?v=COikXif5cQ4) by Electropolitan - A detailed video guide on how to create your own stage, this video focuses on how to construct the stage mostly within the PAC file.

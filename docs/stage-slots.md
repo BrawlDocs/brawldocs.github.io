@@ -164,7 +164,7 @@ Note that at this time, BrawlCrate cannot modify these bin files. To change the 
 
 ---
 
-# Resources
+## Resources
 
 #### Stage Slot Resources
 

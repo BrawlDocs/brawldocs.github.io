@@ -53,7 +53,9 @@ SAWND files correspond directly to a soundbank. You can modify them in Super Saw
 
 SAWND files are named differently depending on the build. Older builds use the **Group ID** in a decimal format, while newer builds use the **Info Index** in hexadecimal format. Both of these match up with the sound info that is displayed in Super Sawndz if you select the soundbank.
 
-# Resources
+---
+
+## Resources
 
 #### Soundbank Resources
 

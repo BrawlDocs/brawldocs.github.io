@@ -18,7 +18,7 @@
 - Music and Sound
     - [Soundbanks](soundbanks.md)
     - [Music](music.md)
-- GFX
+- Graphics
     - [Effect Banks](effectbanks.md)
 - UI
     - [Cosmetics](cosmetics.md)

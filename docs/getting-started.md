@@ -36,7 +36,9 @@ Most builds have a Wii and Dolphin version, depending on whether you are playing
 
 [KJP's vBrawl build](https://drive.google.com/file/d/1sNiVAk2UwAVTXFbjwx4ee0eCyUfp4Bfv/view) is an as-of-yet unnamed build that adds the BrawlEx engine and other modern quality-of-life features to vanilla Brawl. Though it is a bit outdated in terms of features compared to the other builds listed here, unlike those builds, it features vanilla Brawl gameplay, and it does have most of the quality-of-life features you might need to make modding easier. It does also still allow up to 128 characters with 50 costumes each. Use this build if you want a vanilla-like experience with some added customization.
 
-If you're using this build, you may want to also grab some pre-configured ex configs and portraits for it located [here](https://www.mediafire.com/file/d1hhvtqygz4q7ao/BrawlBuild-ExConfigs.zip/file). The build normally loads these from the Brawl disk, but for modding, it is convenient to have these files on the SD card. You can simply extract the zip file and drop the folder onto your build and replace files when prompted to set this up.
+?> If you're using this build, you may want to also grab some pre-configured ex configs and portraits for it located [here](https://www.mediafire.com/file/d1hhvtqygz4q7ao/BrawlBuild-ExConfigs.zip/file). The build normally loads these from the Brawl disk, but for modding, it is convenient to have these files on the SD card. You can simply extract the zip file and drop the folder onto your build and replace files when prompted to set this up.
+
+?> This build is considered a work-in-progress and may have some incomplete features or issues. The build is not actively supported either, so keep this in mind when choosing this build.
 
 ## Build Setup
 

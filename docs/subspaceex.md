@@ -12,7 +12,9 @@
 
 This system is included in many modern EX builds.
 
-# Resources
+---
+
+## Resources
 
 #### Subspace Emissary EX Resources
 

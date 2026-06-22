@@ -6,7 +6,9 @@ Custom soundbanks are all based on Snake's soundbank, meaning to generate a cust
 
 Most modern builds integrate this system.
 
-# Resources
+---
+
+## Resources
 
 #### Soundbank Expansion System Resources
 

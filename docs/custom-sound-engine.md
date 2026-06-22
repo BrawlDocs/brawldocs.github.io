@@ -8,7 +8,9 @@ This system is included in most modern builds.
 
 To learn more about how to use the Custom Sound Engine, see [Music](music.md).
 
-# Resources
+---
+
+## Resources
 
 #### Custom Sound Engine Guides
 

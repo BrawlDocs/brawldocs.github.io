@@ -10,7 +10,9 @@ Most modern builds implement this system.
 
 For detailed information on how to use the system, see [Stage Slots](stage-slots.md) and [Random Stage Switch](random-stage-switch.md).
 
-# Resources
+---
+
+## Resources
 
 #### Stage Expansion Resources
 

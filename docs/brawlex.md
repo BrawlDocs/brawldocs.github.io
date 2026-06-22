@@ -18,7 +18,9 @@ BrawlEx also comes with edited modules called **EX modules**. EX modules are [fi
 
 BrawlEx has had a few different iterations over the years. Most implementations of BrawlEx have a limit of **128** fighters you can have in the game at a given time. However, there have been other implementations that expand this number to **242**. You may see both of these referenced in different builds.
 
-# Resources
+---
+
+## Resources
 
 #### BrawlEx Guides
 

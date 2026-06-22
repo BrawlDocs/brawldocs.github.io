@@ -46,7 +46,9 @@ In order for your character to actually display on the CSS, you also need to mod
 
 The roster file usually contains two folders in it - **Character Select** and **Random Character Select**. The former controls which characters actually appear on the CSS, while the latter controls which characters are available when you select random. If you want a character available in either roster, you simply need to right-click the respective folder and select "Add New Entry". Then, highlight the new entry and change it's "CSS Slot ID" to match the fighter you are trying to add.
 
-# Resources
+---
+
+## Resources
 
 #### EX Config Guides
 

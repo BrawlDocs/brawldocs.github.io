@@ -4,7 +4,9 @@ Like most things in Brawl, fighters also have code stored in their [modules](mod
 
 Fighter modules can be found in `pf/module` within a build, and usually are named `ft_{fighterName}.rel`, where {fighterName} is the fighter's name.
 
-# Resources
+---
+
+## Resources
 
 #### Fighter Module Resources
 

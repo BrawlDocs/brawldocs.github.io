@@ -14,7 +14,9 @@ Effect banks should be unique to the entities that use them, or else their GFX c
 
 **Traces** are a "motion blur" effect that things like swords trail as they're swung. Only certain effect banks have traces in them.
 
-# Resources
+---
+
+## Resources
 
 #### Effect Bank Resources
 

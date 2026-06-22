@@ -30,7 +30,7 @@ Many modern builds use a system called 50CC (short for "Fifty-Costume Code"), wh
 
 #### Costume Index
 
-Cosmetics associated with fighters can sometimes have a costume index, indicating they are tied to a specific fighter. In fact, most costumes tied to fighters use a costume index, even if they are not tied to a specific costume. In these cases, it is usually just `1`.
+Cosmetics associated with fighters can sometimes have a costume index, indicating they are tied to a specific fighter. In fact, most cosmetics tied to fighters use a costume index, even if they are not tied to a specific costume. In these cases, it is usually just `1`.
 
 The costume index usually follows the cosmetic ID. For example, in Link's cosmetic `InfStc.021`, the `1` is the costume index as it is tied to Link's first costume.
 
@@ -90,7 +90,7 @@ Similar portraits are displayed on the results screen. These are usually referre
 
 ---
 
-# Resources
+## Resources
 
 #### Cosmetic Resources
 

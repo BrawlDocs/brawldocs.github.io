@@ -79,7 +79,9 @@ If true, disables condition (2) for pinch mode listed above., meaning pinch mode
 
 This setting is currently unused.
 
-# Resources
+---
+
+## Resources
 
 #### Music Resources
 

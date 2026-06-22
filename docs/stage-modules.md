@@ -10,7 +10,7 @@ Unlike other modules, stage modules have been fully decompiled, meaning new modu
 
 ---
 
-# Resources
+## Resources
 
 #### Stage Module Resources
 - [BrawlStageModule](https://github.com/ilazoja/BrawlStageModule) repository by ilazoja - A repository of custom stage modules written in C++. A great resource if you want to create your own stage modules in C++.
