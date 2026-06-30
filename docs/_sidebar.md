@@ -7,6 +7,7 @@
     - [Git](git-setup.md)
     - [Extracting Brawl Files](extracting-brawl-files.md)
 - Fighters
+    - [Fighter Files](fighter-files.md)
     - [EX Configs](exconfigs.md)
     - [PSA](psa.md)
     - [Fighter Modules](fighter-modules.md)

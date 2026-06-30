@@ -86,6 +86,7 @@ This setting is currently unused.
 #### Music Resources
 
 - [Song ID List](data/song-ids.md) - A list of all vanilla Brawl song IDs.
+- [Smash Custom Music](https://smashcustommusic.net/) - A site that hosts custom-made BRSTM files for Brawl.
 
 #### Music Guides
 

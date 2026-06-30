@@ -9,6 +9,7 @@ Here is a list of places where you can download mods for the game. This list is 
 - [Gamebanana](https://gamebanana.com/games/5678) - The current main hub for Brawl mods. Most new mods are posted here.
 - [Brawl Mart](https://brawlm.art/) - A relatively new site, Brawl Mart attempts to archive all of the old mod listings from BrawlVault and also allows user submissions.
 - [BrawlVault](https://forums.kc-mm.com/Gallery/BrawlView.php) - An old site featuring tons of Brawl mods. This site is very unstable and has not worked consistently in a long time, but the link is here for posterity. Brawl Mart has archived most of the links from this site.
+- [Smash Custom Music](https://smashcustommusic.net/) - A site that hosts custom-made music files for Brawl.
 
 ## Installing with BrawlInstaller
 

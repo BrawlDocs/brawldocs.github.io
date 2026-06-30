@@ -25,6 +25,7 @@ BrawlEx has had a few different iterations over the years. Most implementations 
 #### BrawlEx Guides
 
 - [BrawlEx Guide for P+Ex](https://docs.google.com/document/d/1ZoL_qDcwUpUXg82cKaUp-6D_AcfpFctoW6GXFY74_0k/edit?usp=sharing) by KingJigglypuff, originally by Robintjuh - A general-purpose guide for installing BrawlEx characters to P+Ex builds. Goes into great detail on all aspects of BrawlEx.
+- [Internal ID References](https://docs.google.com/document/d/1mQaRwM4dh9g1owel6_ZFNSVwmllbO1pcC7IaYtmJBzM/edit?usp=sharing) by KingJigglypuff - A list of all fighter IDs in Brawl, Project+, and P+Ex. Useful for knowing which configs are used by which fighters.
 
 #### EX Config Resources
 
