@@ -60,11 +60,17 @@ There are various tools involved in Brawl modding. This section will go over the
 
 [Super Sawndz](https://github.com/QuickLava/super-sawndz) is an editor for Brawl's sound files, allowing you to open a Brawl BRSAR file, import `.sawnd` files into it, modify the sounds within, and export them. It is essential if you want to make any changes to the game's sound effects.
 
+### LoopingAudioConverter
+
+<img src="images/LoopingAudioConverter.png" alt="LoopingAudioConverter screenshot" width="700"/>
+
+[LoopingAudioConverter](https://github.com/libertyernie/LoopingAudioConverter) is a tool for converting creating loop points in songs (supporting various file formats) and saving them in the `brstm` format used for music in Brawl.
+
 ### Loopatron
 
 <img src="images/Loopatron.png" alt="Loopatron screenshot" width="700"/>
 
-[Loopatron](https://github.com/ilazoja/Loopatron) is a tool for identifying and creating loop points in songs (supporting various file formats) and saving them in the `brstm` format used for music in Brawl.
+[Loopatron](https://github.com/ilazoja/Loopatron) is a tool for identifying and creating loop points in songs (supporting various file formats) and saving them in the `brstm` format used for music in Brawl. It is backed by LoopingAudioConverter.
 
 ## Graphics
 

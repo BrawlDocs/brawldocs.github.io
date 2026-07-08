@@ -62,6 +62,7 @@ When used after a branch instruction such as b or bl, this command replaces the 
 - [Ghidra](tools?id=ghidra) - Used to navigate the game's code to better understand it for your modifications.
 - [Dolphin Memory engine](tools?id=dolphin-memory-engine) - Used to monitor the game's memory to better understand the game's code for your modifications.
 - [BrawlStageModule](https://github.com/ilazoja/BrawlStageModule) repository by ilazoja - A repository of custom stage modules written in C++. A great resource if you want to create your own stage modules in C++.
+- [CustomModules](https://github.com/MarioDox/CustomModules) repo by MarioDox - A repository of source code for REL files modified by MarioDox using reltools. A good resource for seeing what module edits typically look like.
 - [Brawl Map Files](https://www.mediafire.com/file/k8jilon7g0zcri8/maps.zip/file) - Map files that can be used in conjunction with reltools to ensure disassembled modules have their functions labeled correctly.
 - [BrawlHeaders](https://github.com/Sammi-Husky/BrawlHeaders) - Repository of header files containing Brawl functions. Useful for identifying what functions are available for use, and necessary when creating custom modules.
 

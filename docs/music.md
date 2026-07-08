@@ -6,7 +6,7 @@ In Brawl, music files are stored in a **BRSTM** format. Vanilla Brawl stores the
 
 BRSTM is the format used by Brawl for music tracks. Music inside a BRSTM file can have defined loop points, allowing the songs to loop seamlessly.
 
-You can create BRSTM files using a number of different programs, including [Loopatron](tools?id=loopatron).
+You can create BRSTM files using a number of different programs, including [LoopingAudioConverter](tools?id=loopingaudioconverter) and [Loopatron](tools?id=loopatron).
 
 ## Tracklists
 

@@ -38,6 +38,8 @@
     - [Custom Sound Engine](custom-sound-engine.md)
     - [ItemEx](itemex.md)
     - [Subspace Emissary EX](subspaceex.md)
+    - [Code Menu](code-menu.md)
+    - [Hidden Alts](hidden-alts.md)
 - [Tools](tools.md)
 - Data
     - [Soundbank IDs](data/soundbank-ids.md)
