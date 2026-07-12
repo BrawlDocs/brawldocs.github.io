@@ -63,6 +63,20 @@
       coverpage: true,
       onlyCover: true,
       logo: 'images/BrawlDocs_Logo_Text.png',
+      plugins: [
+        function (hook, vm) {
+          function updateNavbarVisibility() {
+            const nav = document.querySelector('.app-nav');
+            if (!nav) return;
+
+            const isCoverPage = !window.location.hash || window.location.hash === '#' || window.location.hash === '#/' || vm.route.path === '/' || vm.route.path === '/README';
+            nav.style.display = isCoverPage ? 'none' : '';
+          }
+
+          hook.mounted(updateNavbarVisibility);
+          hook.doneEach(updateNavbarVisibility);
+        }
+      ],
       toc: {
         tocMaxLevel: 5,
         target: 'h2, h3, h4, h5, h6',
