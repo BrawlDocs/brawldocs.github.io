@@ -1,4 +1,4 @@
-# Getting Started
+# Initial Setup
 
 This section will go over how to get started modding Brawl for those with little-to-no experience.
 
@@ -70,6 +70,8 @@ _An example of what the filesystem might look like._
 
 Different mods are installed in different parts of the filesystem. Mods and tools should have their own documentation on where you need to navigate to install them.
 
+If you want to learn more about how the game and it's various systems work, check out the [documentation](/docs/) section.
+
 ### Conclusion
 
-Now that you have your environment set up, you can get started on doing basic modding tasks. If you're trying to download and install mods, you should check out the various sites in the [Installing Mods](installing-mods.md) page. If you have mods that require more manual installation, or you just want to get started editing Brawl's files, make sure you have [BrawlCrate](tools?id=brawlcrate). If you're interested in learning about modding generally, check out the other sections on this site.
+Now that you have your environment set up, you can get started on doing basic modding tasks. If you're trying to download and install mods, you should check out the various sites in the [Installing Mods](/intro/installing-mods.md) page. If you have mods that require more manual installation, or you just want to get started editing Brawl's files, make sure you have [BrawlCrate](/intro/tools?id=brawlcrate). If you're interested in learning about modding generally, check out the other sections on this site.

@@ -22,7 +22,7 @@ Effect banks should be unique to the entities that use them, or else their GFX c
 
 - [ICLPX's GFX Lists](https://iclpx.web.fc2.com/GE.html) - A site with multiple lists of different GFX featured in the base game with sample images. This link is to the "Common GFX List", the GFX that are part of the common banks which are always loaded, but the site has numerous other GFX lists as well.
 - [Visual dictionary for universal GFXs in PSA](https://www.youtube.com/watch?v=_-mwMQQHDn0) - A video demonstrating all of the common GFX in the base game.
-- [JOJI's site](http://ssbbhack.web.fc2.com/index.html) - A site that has numerous resources on effect banks and GFX, including lists of effect bank IDs and some tutorials. Most useful as a resource for learning about the custom Effect.pacs that are part of the [Effect.pac Roster Expansion System](effectpacexpansion.md).
+- [JOJI's site](http://ssbbhack.web.fc2.com/index.html) - A site that has numerous resources on effect banks and GFX, including lists of effect bank IDs and some tutorials. Most useful as a resource for learning about the custom Effect.pacs that are part of the [Effect.pac Roster Expansion System](/mods/effectpacexpansion.md).
 
 #### Effect Bank Guides
 

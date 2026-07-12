@@ -10,7 +10,7 @@ ItemEx allows:
 - Ability to adjust Pokemon/Assist probability per stage
 - Any item to be able to have collision
 
-ItemEx is used by builds like [Project+](getting-started?id=project) to add new items, such as the Double Cherry item, and is also used in builds like [P+Ex](getting-started?id=pex) and [REX](getting-started?id=rex) to add complex projectiles to characters that wouldn't otherwise be able to use them.
+ItemEx is used by builds like [Project+](/intro/initial-setup?id=project) to add new items, such as the Double Cherry item, and is also used in builds like [P+Ex](/intro/initial-setup?id=pex) and [REX](/intro/initial-setup?id=rex) to add complex projectiles to characters that wouldn't otherwise be able to use them.
 
 ---
 
@@ -18,7 +18,7 @@ ItemEx is used by builds like [Project+](getting-started?id=project) to add new 
 
 #### ItemEx Resources
 
-- [BrawlItemEditor](tools?id=brawlitemeditor) - A tool that allows you to edit item scripting similar to editing fighter scripting using PSACompressor.
+- [BrawlItemEditor](/intro/tools?id=brawlitemeditor) - A tool that allows you to edit item scripting similar to editing fighter scripting using PSACompressor.
 - [ItemEx Source Code](https://github.com/Sammi-Husky/BrawlEx/blob/SSE/src/ItemEx/ItemEx.asm) - The source code for ItemEx.
 
 #### ItemEx Guides

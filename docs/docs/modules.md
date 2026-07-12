@@ -12,7 +12,7 @@ Modules are generally located in the `pf/module` folder of a build.
 
 ## Configuring reltools
 
-Editing modules is primarily done using [reltools](tools?id=reltools). You'll need to install it to make any edits. You'll also need the [game's map files](https://www.mediafire.com/file/k8jilon7g0zcri8/maps.zip/file) to ensure that disassembled have their functions labeled correctly.
+Editing modules is primarily done using [reltools](/intro/tools?id=reltools). You'll need to install it to make any edits. You'll also need the [game's map files](https://www.mediafire.com/file/k8jilon7g0zcri8/maps.zip/file) to ensure that disassembled have their functions labeled correctly.
 
 ## Disassembling
 
@@ -58,9 +58,9 @@ When used after a branch instruction such as b or bl, this command replaces the 
 ## Resources
 
 #### Module Resources
-- [reltools](tools?id=reltools) - Used to disassemble and reassemble module REL files.
-- [Ghidra](tools?id=ghidra) - Used to navigate the game's code to better understand it for your modifications.
-- [Dolphin Memory engine](tools?id=dolphin-memory-engine) - Used to monitor the game's memory to better understand the game's code for your modifications.
+- [reltools](/intro/tools?id=reltools) - Used to disassemble and reassemble module REL files.
+- [Ghidra](/intro/tools?id=ghidra) - Used to navigate the game's code to better understand it for your modifications.
+- [Dolphin Memory engine](/intro/tools?id=dolphin-memory-engine) - Used to monitor the game's memory to better understand the game's code for your modifications.
 - [BrawlStageModule](https://github.com/ilazoja/BrawlStageModule) repository by ilazoja - A repository of custom stage modules written in C++. A great resource if you want to create your own stage modules in C++.
 - [CustomModules](https://github.com/MarioDox/CustomModules) repo by MarioDox - A repository of source code for REL files modified by MarioDox using reltools. A good resource for seeing what module edits typically look like.
 - [Brawl Map Files](https://www.mediafire.com/file/k8jilon7g0zcri8/maps.zip/file) - Map files that can be used in conjunction with reltools to ensure disassembled modules have their functions labeled correctly.

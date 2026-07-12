@@ -6,7 +6,7 @@ This system also allows you to create netplay-specific tracklists in `pf/sound/n
 
 This system is included in most modern builds.
 
-To learn more about how to use the Custom Sound Engine, see [Music](music.md).
+To learn more about how to use the Custom Sound Engine, see [Music](docs/music.md).
 
 ---
 

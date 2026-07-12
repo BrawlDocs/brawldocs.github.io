@@ -30,9 +30,9 @@ It is possible to disable a code if you wish to keep it present in your build bu
 ## Resources
 
 #### Codes Resources
-- [GCTRealMate](tools?id=gctrealmate) - Used to compile ASM codes to a GCT file that can be read by the game.
-- [Ghidra](tools?id=ghidra) - Used to navigate the game's code to better understand it for your modifications.
-- [Dolphin Memory engine](tools?id=dolphin-memory-engine) - Used to monitor the game's memory to better understand the game's code for your modifications.
+- [GCTRealMate](/intro/tools?id=gctrealmate) - Used to compile ASM codes to a GCT file that can be read by the game.
+- [Ghidra](/intro/tools?id=ghidra) - Used to navigate the game's code to better understand it for your modifications.
+- [Dolphin Memory engine](/intro/tools?id=dolphin-memory-engine) - Used to monitor the game's memory to better understand the game's code for your modifications.
 - [RSBE01.map](https://www.mediafire.com/file/plmu3xqoraz1yo1/RSBE01.map/file) - A map file for Brawl's static functions that can be loaded while running the game in Dolphin to ensure functions are labeled correctly.
 
 #### Codes Guides

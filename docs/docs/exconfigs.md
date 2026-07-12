@@ -2,7 +2,7 @@
 
 !> This section is only applicable if you're using a BrawlEx build
 
-**EX Configs** are configuration files used by [BrawlEx](brawlex.md) to map fighters to IDs and properties so the game knows which characters to load and what to do with them. Every fighter, in theory, should have 4 configs - each of a different type - although some of the values of these configs are hardcoded into BrawlEx, so vanilla fighters can sometimes be missing some and still function correctly. When adding a new fighter, you'll need to make sure they have these configs as well.
+**EX Configs** are configuration files used by [BrawlEx](/mods/brawlex.md) to map fighters to IDs and properties so the game knows which characters to load and what to do with them. Every fighter, in theory, should have 4 configs - each of a different type - although some of the values of these configs are hardcoded into BrawlEx, so vanilla fighters can sometimes be missing some and still function correctly. When adding a new fighter, you'll need to make sure they have these configs as well.
 
 There are 4 types of configs:
 - FighterConfig
@@ -74,7 +74,7 @@ FighterConfigs are stored in `pf/BrawlEx/FighterConfig` and are named `FighterXX
 **Fighter**
 - **Fighter File Name** - The base name to use for all of the [fighter's files](fighter-files.md) and their [module](fighter-modules.md). Changing this field updates all of the other fields in the same section of the config in BrawlCrate.
 - **Pac File Name** - The relative path and naming scheme used for the PAC files associated with the fighter, relative to `pf/fighter` in most builds. For example, setting this path to `mario/FitMario.pac` means that the fighter's moveset PAC will be `pf/fighter/mario/FitMario.pac`. All other PAC files, such as costumes, Entry, Motion, Etc, and the like will be derived from this filename.
-- **Kirby Pac File Name** - Similar to the **Pac File Name**, this is the relative path and naming scheme used for the PAC files associated with the fighter's Kirby hat. For example, setting it to `kirby/FitKirbyMario.pac` means that the fighter's Kirby hat PAC will be `pf/fighter/kirby/FitKirbyMario.pac`. All other Kirby hat PAC files, such as costumes, will be derived from this filename. Usually, this is `kirby/FitKirbyFightername.pac`, where `Fightername` is the same as the **Fighter File Name**.
+- **Kirby Pac File Name** - Similar to the **Pac File Name**, this is the relative path and naming scheme used for the fighter's Kirby hat. For example, setting it to `kirby/FitKirbyMario.pac` means that the fighter's Kirby hat PAC will be `pf/fighter/kirby/FitKirbyMario.pac`. All other Kirby hat PAC files, such as costumes, will be derived from this filename. Usually, this is `kirby/FitKirbyFightername.pac`, where `Fightername` is the same as the **Fighter File Name**.
 - **Module File Name** - The name of the rel file to use for the fighter's [module](fighter-modules.md). Usually `ft_fightername.rel`, where `fightername` is the **Fighter File Name**. For example, `ft_mario.rel` would load `pf/module/ft_mario.rel`.
 - **Internal Fighter Name** - An internal name for the fighter. Usually the same as the **Fighter File Name**, but in all caps.
 **Abilities**

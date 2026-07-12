@@ -4,9 +4,9 @@ Sound effects in Brawl live in **soundbanks**, files that group related sound ef
 
 ## BRSAR
 
-In the vanilla game, all soundbanks are contained within a large **BRSAR** file called `smashbros_sound.brsar` and located in the `sound` folder at the root of the disk. This file contains the various banks as well as headers for them. When modifying the vanilla game, you need to open this BRSAR file using [Super Sawndz](tools?id=super-sawndz), and from there you can modify the sounds within, replacing them with your own sounds.
+In the vanilla game, all soundbanks are contained within a large **BRSAR** file called `smashbros_sound.brsar` and located in the `sound` folder at the root of the disk. This file contains the various banks as well as headers for them. When modifying the vanilla game, you need to open this BRSAR file using [Super Sawndz](/intro/tools?id=super-sawndz), and from there you can modify the sounds within, replacing them with your own sounds.
 
-If you don't have the BRSAR, you can get it by [extracting Brawl's files](extracting-brawl-files.md) from the disk.
+If you don't have the BRSAR, you can get it by [extracting Brawl's files](/intro/extracting-brawl-files.md) from the disk.
 
 <img src="images/BRSARExample.png" alt="Screenshot of a BRSAR open in Super Sawndz" width="700"/>
 
@@ -45,7 +45,7 @@ You can also export a sound from the BRSAR. Simply select the sound and click th
 
 !> This section is only relevant if your build uses the Replacement Soundbank Engine
 
-Most modern builds use a [Replacement Soundbank Engine (RSBE)](replacement-soundbank-engine.md). This system makes it so that soundbanks can each be stored as individual files instead of being stored in one large BRSAR file. These files are `.sawnd` files, and are usually located in `pf/sfx`.
+Most modern builds use a [Replacement Soundbank Engine (RSBE)](/mods/replacement-soundbank-engine.md). This system makes it so that soundbanks can each be stored as individual files instead of being stored in one large BRSAR file. These files are `.sawnd` files, and are usually located in `pf/sfx`.
 
 SAWND files correspond directly to a soundbank. You can modify them in Super Sawndz, but they require you to first open `smashbros_sound.brsar` in the program. After opening them, you can use the **Input File** field to select a sawnd file and then click **Insert**. This will automatically replace the matching soundbank within the BRSAR with your sawnd file. You can then edit it in Super Sawndz like normal. Once your edits are done, you can export the sawnd using the **Create Sawnd** button underneath the sound info, saving it to a location of your choosing.
 
@@ -60,7 +60,7 @@ SAWND files are named differently depending on the build. Older builds use the *
 #### Soundbank Resources
 
 - [Soundbank IDs](data/soundbank-ids.md) - A list of soundbank IDs.
-- [JOJI's site](http://ssbbhack.web.fc2.com/index.html) - Contains useful lists of soundbank and SFX IDs, including soundbank IDs custom soundbanks as part of the [soundbank expansion](soundbankexpansion.md) system.
+- [JOJI's site](http://ssbbhack.web.fc2.com/index.html) - Contains useful lists of soundbank and SFX IDs, including soundbank IDs custom soundbanks as part of the [soundbank expansion](/mods/soundbankexpansion.md) system.
 
 #### Soundbank Guides
 

@@ -1,6 +1,6 @@
 # reltools Guide
 
-This is a basic guide on how to use [reltools](tools?id=reltools). This guide just covers how to use reltools, not how to code in PowerPC Assembly to actually make your changes.
+This is a basic guide on how to use [reltools](/intro/tools?id=reltools). This guide just covers how to use reltools, not how to code in PowerPC Assembly to actually make your changes.
 
 Note that reltools uses the standard PPC assembler. If you're used to GCTRM, the syntax is slightly different. [See here](https://mariokartwii.com/showthread.php?tid=1083) for the syntax used.
 
@@ -8,12 +8,12 @@ Note that reltools uses the standard PPC assembler. If you're used to GCTRM, the
 
 ## Prerequisites
 In order to get started, you’ll want to make sure you have the following:
-- [reltools](tools?id=reltools) by Sammi Husky
+- [reltools](/intro/tools?id=reltools) by Sammi Husky
 - [The game’s map files](https://www.mediafire.com/file/k8jilon7g0zcri8/maps.zip/file)
 - The module file you want to edit
 
 Optionally, you may want the following:
-- [Ghidra](tools?id=ghidra) and the [GameCube Loader](https://github.com/Cuyler36/Ghidra-GameCube-Loader)
+- [Ghidra](/intro/tools?id=ghidra) and the [GameCube Loader](https://github.com/Cuyler36/Ghidra-GameCube-Loader)
 
 ## Disassembling
 

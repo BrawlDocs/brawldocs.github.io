@@ -4,7 +4,7 @@
 
 Hidden costumes are enabled by a code called `[Legacy TE] Hold Z for AltZ Characters, R/C for AltR Characters V3.2 [PyotrLuzhin, codes, ASF1nk, Yohan1044, DukeItOut]` in older builds, generally located in `AltCostume.asm` in `Source/LegacyTE`. Newer builds are instead generally enabled by `HiddenAltSets.asm` in `Source/P+Ex`, which has more features.
 
-Hidden costumes work like other costumes, but they don't require an entry in the fighter's [CSSSlot config](exconfigs?id=cssslotconfig). Instead, you simply add the costume's PAC file, named in the format `FitFighterAltR.pac` or `FitFighterAltZ.pac` (where `Fighter` is the fighter's file name) for costumes accessed by holding `R` and `Z`, respectively. See [fighter costume files](fighter-files?id=costume-files) for more information on costume files.
+Hidden costumes work like other costumes, but they don't require an entry in the fighter's [CSSSlot config](docs/exconfigs?id=cssslotconfig). Instead, you simply add the costume's PAC file, named in the format `FitFighterAltR.pac` or `FitFighterAltZ.pac` (where `Fighter` is the fighter's file name) for costumes accessed by holding `R` and `Z`, respectively. See [fighter costume files](docs/fighter-files?id=costume-files) for more information on costume files.
 
 ## Hidden Alt Sets
 

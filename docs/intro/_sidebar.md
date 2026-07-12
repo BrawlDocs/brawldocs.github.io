@@ -1,0 +1,8 @@
+- [Introduction](/intro/)
+- [Initial Setup](/intro/initial-setup.md)
+- [Installing Mods](/intro/installing-mods.md)
+- [Git](/intro/git-setup.md)
+- [Extracting Brawl Files](/intro/extracting-brawl-files.md)
+- [Tools](/intro/tools.md)
+- [Misc Resources](/intro/misc-resources.md)
+- [Community](/intro/community.md)

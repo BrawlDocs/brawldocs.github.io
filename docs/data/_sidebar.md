@@ -1,0 +1,4 @@
+- [Introduction](/data/)
+- [Soundbank IDs](data/soundbank-ids.md)
+- [Song IDs](data/song-ids.md)
+- [Effect.pac IDs](data/effectpac-ids.md)

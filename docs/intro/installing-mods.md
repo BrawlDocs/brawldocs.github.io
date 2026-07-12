@@ -13,8 +13,8 @@ Here is a list of places where you can download mods for the game. This list is 
 
 ## Installing with BrawlInstaller
 
-If you're trying to install characters, stages, trophies, and other kinds of mods, [BrawlInstaller](tools?id=brawlinstaller) aims to simplify and speed up the process as much as possible. BrawlInstaller automatically does many of the operations you would have to do manually with other programs, making it a very fast way to get mods installed.
+If you're trying to install characters, stages, trophies, and other kinds of mods, [BrawlInstaller](/intro/tools?id=brawlinstaller) aims to simplify and speed up the process as much as possible. BrawlInstaller automatically does many of the operations you would have to do manually with other programs, making it a very fast way to get mods installed.
 
 ## Installing with BrawlCrate
 
-If you need to install something manually, or you just want to get familiar with the game's files, you will most likely need to familiarize yourself with [BrawlCrate](tools?id=brawlcrate). BrawlCrate is a tool for reading and editing the various file formats used by the game, so if you intend to do any amount of modding, it is strongly recommended.
+If you need to install something manually, or you just want to get familiar with the game's files, you will most likely need to familiarize yourself with [BrawlCrate](/intro/tools?id=brawlcrate). BrawlCrate is a tool for reading and editing the various file formats used by the game, so if you intend to do any amount of modding, it is strongly recommended.

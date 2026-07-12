@@ -4,4 +4,4 @@ The **Replacement Soundbank Engine** or RSBE is a system that allows the game to
 
 Most modern builds implement this system.
 
-To learn more about working with SAWNDs, see [Soundbanks](soundbanks.md).
+To learn more about working with SAWNDs, see [Soundbanks](docs/soundbanks.md).

@@ -8,11 +8,11 @@ Most modern builds integrate BrawlEx in order to add more characters and costume
 
 ## EX Configs
 
-While bx_fighter.rel is the primary driver of BrawlEx's code, BrawlEx features various config files called [EX Configs](exconfigs.md). These files can be used to configure details about a fighter, such as what files to load for them and how many costumes they have. These configs are usually located in `pf/BrawlEx` in a build.
+While bx_fighter.rel is the primary driver of BrawlEx's code, BrawlEx features various config files called [EX Configs](docs/exconfigs.md). These files can be used to configure details about a fighter, such as what files to load for them and how many costumes they have. These configs are usually located in `pf/BrawlEx` in a build.
 
 ## EX Modules
 
-BrawlEx also comes with edited modules called **EX modules**. EX modules are [fighter modules](fighter-modules.md) that have been modified to be easier to work with. Regular fighter modules have scattered references to the fighter's ID all throughout the module, while EX modules include only one single reference to the fighter's ID in the module's `Section[8]`. This makes it far easier to change the IDs associated with the fighter.
+BrawlEx also comes with edited modules called **EX modules**. EX modules are [fighter modules](docs/fighter-modules.md) that have been modified to be easier to work with. Regular fighter modules have scattered references to the fighter's ID all throughout the module, while EX modules include only one single reference to the fighter's ID in the module's `Section[8]`. This makes it far easier to change the IDs associated with the fighter.
 
 ## 128 vs 242
 

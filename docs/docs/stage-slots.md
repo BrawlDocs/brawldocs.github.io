@@ -1,6 +1,6 @@
 # Stage Slots
 
-Every stage exists within a stage **slot**. If you're using vanilla Brawl, these stage slots and their IDs are hardcoded for each stage. If you're using a custom build with the [Stage File System](stageexpansion.md), these slots are determined either by an ASM table or a custom `RSS` file.
+Every stage exists within a stage **slot**. If you're using vanilla Brawl, these stage slots and their IDs are hardcoded for each stage. If you're using a custom build with the [Stage File System](/mods/stageexpansion.md), these slots are determined either by an ASM table or a custom `RSS` file.
 
 Stage slots are essentially made up of a couple of IDs. The **stage ID** is used to identify the stage throughout the game's code. The **cosmetic ID** is used to identify which cosmetics are associated with the stage.
 
@@ -42,7 +42,7 @@ When you add a stage to a page, you need to expand the number associated with th
 
 If your build is on the latest version of the Stage File System, your stage table is instead stored in `RSS` files in your build. These files are located in `pf/stage/switch` generally, and end in a `.rss` extension. Each of these files represents a different stage list preset which you can switch between on the random stage switch submenu in the rules menu in-game. Each RSS file has its own table which will be used when that preset is loaded.
 
-BrawlCrate does not currently support RSS files. As such, if you want to modify what stages are in your table, you must use [BrawlInstaller](tools?id=brawlinstaller).
+BrawlCrate does not currently support RSS files. As such, if you want to modify what stages are in your table, you must use [BrawlInstaller](/intro/tools?id=brawlinstaller).
 
 ## ASL Files
 
@@ -152,7 +152,7 @@ Just like any other ASL entry, the name of the entry determines what param will 
 
 ### Bin File Setup
 
-In addition to setting up the list alt, you need to add a bin file to your build. You can create a copy of [this sample file](https://www.mediafire.com/file/4dfsa4khg9rr826/st_00_sample.bin/file) to use, or alternatively you can use any bin file created with the Stage Builder in-game or use any bin file from [Project+](getting-started?id=project).
+In addition to setting up the list alt, you need to add a bin file to your build. You can create a copy of [this sample file](https://www.mediafire.com/file/4dfsa4khg9rr826/st_00_sample.bin/file) to use, or alternatively you can use any bin file created with the Stage Builder in-game or use any bin file from [Project+](/intro/initial-setup?id=project).
 
 Bin files are generally located in `pf/stage/stagelist`. The folders in this directory align to the stage's ASL slot ID, appended with `_L` for L+Start alts, and `_R` for R+Start alts. For example, a Battlefield stage with an ID of `0x01` would have it's L+Start list alts located at `pf/stage/stagelist/01_L`.
 
@@ -160,7 +160,7 @@ Any bin files in one of these folders will be displayed in the list when L+Start
 
 <img src="images/ListAltFolderScreenshot.png" alt="Example of a folder with a list alt in it" width="700"/>
 
-Note that at this time, BrawlCrate cannot modify these bin files. To change the thumbnail and name that is displayed on your stage in the list, use [BrawlInstaller](tools?id=brawlinstaller). BrawlInstaller will also handle saving the bin files in the correct place for you automatically, so you don't need to do these steps manually.
+Note that at this time, BrawlCrate cannot modify these bin files. To change the thumbnail and name that is displayed on your stage in the list, use [BrawlInstaller](/intro/tools?id=brawlinstaller). BrawlInstaller will also handle saving the bin files in the correct place for you automatically, so you don't need to do these steps manually.
 
 ---
 

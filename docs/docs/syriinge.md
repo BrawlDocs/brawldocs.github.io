@@ -12,6 +12,6 @@ Syriinge plugins are generally included in the `pf/plugins` folder of a build. W
 
 #### Syriinge Resources
 - [Syriinge](https://github.com/Sammi-Husky/Syriinge) - The Syriinge frameworkf or creating plugins.
-- [Ghidra](tools?id=ghidra) - Used to navigate the game's code to better understand it for your modifications.
-- [Dolphin Memory engine](tools?id=dolphin-memory-engine) - Used to monitor the game's memory to better understand the game's code for your modifications.
+- [Ghidra](/intro/tools?id=ghidra) - Used to navigate the game's code to better understand it for your modifications.
+- [Dolphin Memory engine](/intro/tools?id=dolphin-memory-engine) - Used to monitor the game's memory to better understand the game's code for your modifications.
 - [BrawlHeaders](https://github.com/Sammi-Husky/BrawlHeaders) - Repository of header files containing Brawl functions. Necessary for calling the game's functions from a plugin.

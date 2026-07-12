@@ -6,13 +6,13 @@ In Brawl, music files are stored in a **BRSTM** format. Vanilla Brawl stores the
 
 BRSTM is the format used by Brawl for music tracks. Music inside a BRSTM file can have defined loop points, allowing the songs to loop seamlessly.
 
-You can create BRSTM files using a number of different programs, including [LoopingAudioConverter](tools?id=loopingaudioconverter) and [Loopatron](tools?id=loopatron).
+You can create BRSTM files using a number of different programs, including [LoopingAudioConverter](/intro/tools?id=loopingaudioconverter) and [Loopatron](/intro/tools?id=loopatron).
 
 ## Tracklists
 
 !> Tracklists are only available in builds that use the Custom Sound Engine (CSE)
 
-Most modern builds use the [Custom Sound Engine (CSE)](custom-sound-engine.md), allowing you to extensively modify the songs that appear in-game. Songs are controlled mostly via **tracklists**, which are essentially files that hold a list of what BRSTMs can play when that tracklist is loaded.
+Most modern builds use the [Custom Sound Engine (CSE)](/mods/custom-sound-engine.md), allowing you to extensively modify the songs that appear in-game. Songs are controlled mostly via **tracklists**, which are essentially files that hold a list of what BRSTMs can play when that tracklist is loaded.
 
 Tracklists are usually located in `pf/sound/tracklist`, and end with the `.tlst` extension. They can be opened in BrawlCrate.
 

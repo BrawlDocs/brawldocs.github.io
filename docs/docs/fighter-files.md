@@ -6,7 +6,7 @@ All fighter files are usually located in `pf/fighter/fightername`, where `fighte
 
 ## Moveset File
 
-The fighter's main moveset file is the file containing their [PSA](psa.md). It also contains their [effect bank](effectbanks.md). It is the core of the fighter, and usually aligns to the [Fighter File Name](exconfigs?id=fighter-config-fields) in [BrawlEx](brawlex.md) builds.
+The fighter's main moveset file is the file containing their [PSA](psa.md). It also contains their [effect bank](effectbanks.md). It is the core of the fighter, and usually aligns to the [Fighter File Name](exconfigs?id=fighter-config-fields) in [BrawlEx](/mods/brawlex.md) builds.
 
 Usually this file is named `FitFightername.pac`, where `Fightername` is the fighter's file name.
 

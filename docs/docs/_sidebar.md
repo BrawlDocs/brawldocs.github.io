@@ -1,0 +1,24 @@
+- [Introduction](/docs/)
+- Fighters
+    - [Fighter Files](docs/fighter-files.md)
+    - [EX Configs](docs/exconfigs.md)
+    - [PSA](docs/psa.md)
+    - [Fighter Modules](docs/fighter-modules.md)
+- Stages
+    - [Stage Slots](docs/stage-slots.md)
+    - [Stage PACs](docs/stage-pacs.md)
+    - [Stage Modules](docs/stage-modules.md)
+    - [Random Stage Switch](docs/random-stage-switch.md)
+- Music and Sound
+    - [Soundbanks](docs/soundbanks.md)
+    - [Music](docs/music.md)
+- Graphics
+    - [Effect Banks](docs/effectbanks.md)
+- UI
+    - [Cosmetics](docs/cosmetics.md)
+- Trophies
+    - WIP
+- Coding
+    - [Codes](docs/codes.md)
+    - [Modules](docs/modules.md)
+    - [Syriinge](docs/syriinge.md)
