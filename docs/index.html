@@ -40,6 +40,60 @@
       border-color: #fff;
     }
 
+    body {
+      padding-top: 0;
+    }
+
+    .app-nav {
+      position: fixed;
+      top: 0;
+      left: 10;
+      right: 0;
+      z-index: 1;
+      padding: 0rem 1rem 0rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+      background: rgba(17, 17, 24, 0.95);
+      backdrop-filter: blur(8px);
+      margin-bottom: 0;
+      text-align: left;
+      line-height: 1.2;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      min-height: 2.2rem;
+      visibility: hidden;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.12s ease;
+    }
+
+    .app-nav.visible {
+      visibility: visible;
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .app-nav a {
+      margin: 0;
+      padding: 0.2rem 0.6rem;
+      border-radius: 999px;
+      color: #e8defc;
+      font-weight: 600;
+      transition: background-color 0.2s ease, color 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      white-space: nowrap;
+    }
+
+    .app-nav a:hover,
+    .app-nav a:focus {
+      background-color: rgba(180, 140, 255, 0.18);
+      color: #fff;
+      text-decoration: none;
+    }
+
     .sidebar .app-name img,
     .sidebar img[src*="BrawlDocs_Logo"] {
       max-width: 70%;
@@ -47,6 +101,17 @@
       height: auto;
       display: block;
       margin: 0 auto;
+    }
+
+    @media (max-width: 768px) {
+      .app-nav {
+        padding-top: 0.4rem;
+        padding-bottom: 0.5rem;
+      }
+
+      .content {
+        padding-top: 5rem !important;
+      }
     }
   </style>
 </head>
@@ -64,14 +129,22 @@
       onlyCover: true,
       logo: 'images/BrawlDocs_Logo_Text.png',
       plugins: [
-        function (hook, vm) {
+        function (hook) {
           function updateNavbarVisibility() {
             const nav = document.querySelector('.app-nav');
             if (!nav) return;
 
-            const isCoverPage = !window.location.hash || window.location.hash === '#' || window.location.hash === '#/' || vm.route.path === '/' || vm.route.path === '/README';
-            nav.style.display = isCoverPage ? 'none' : '';
+            const isCoverPage = !window.location.hash || window.location.hash === '#' || window.location.hash === '#/' || window.location.hash === '#/README';
+            if (isCoverPage) {
+              nav.classList.remove('visible');
+            } else {
+              nav.classList.add('visible');
+            }
           }
+
+          hook.ready(function () {
+            setTimeout(updateNavbarVisibility, 0);
+          });
 
           hook.mounted(updateNavbarVisibility);
           hook.doneEach(updateNavbarVisibility);
