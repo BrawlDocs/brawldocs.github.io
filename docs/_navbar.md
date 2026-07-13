@@ -2,4 +2,5 @@
 [Getting Started](/intro/)
 [Documentation](/docs/)
 [Mod Projects](/mods/)
+[Guides](/guides/)
 [Data](/data/)
