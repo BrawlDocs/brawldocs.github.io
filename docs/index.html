@@ -103,14 +103,106 @@
       margin: 0 auto;
     }
 
-    @media (max-width: 768px) {
+    .toc-toggle {
+      display: none;
+    }
+
+    @media (max-width: 1299px) {
       .app-nav {
         padding-top: 0.4rem;
         padding-bottom: 0.5rem;
       }
 
       .content {
-        padding-top: 5rem !important;
+        padding-top: 4rem !important;
+      }
+
+      aside.toc-nav {
+        max-width: 0 !important;
+        width: 0 !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+        overflow: hidden !important;
+      }
+
+      aside.toc-nav.open {
+        max-width: min(18rem, calc(100vw - 1.5rem)) !important;
+        width: min(18rem, calc(100vw - 1.5rem)) !important;
+        opacity: 1 !important;
+        pointer-events: auto !important;
+        overflow-y: auto !important;
+      }
+
+      .toc-toggle {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.2rem;
+        position: fixed;
+        top: 0.6rem;
+        right: 0.75rem;
+        z-index: 120;
+        width: 2.35rem;
+        height: 2.35rem;
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        border-radius: 999px;
+        background: rgba(17, 17, 24, 0.95);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+      }
+
+      .toc-toggle span {
+        display: block;
+        width: 1rem;
+        height: 2px;
+        border-radius: 999px;
+        background: #e8defc;
+      }
+
+      .toc-toggle.active span:nth-child(1) {
+        transform: rotate(45deg) translate(0.12rem, 0.17rem);
+      }
+
+      .toc-toggle.active span:nth-child(2) {
+        opacity: 0;
+      }
+
+      .toc-toggle.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(0.12rem, -0.17rem);
+      }
+
+      aside.toc-nav {
+        position: fixed;
+        top: 3.2rem;
+        right: 0.75rem;
+        width: min(18rem, calc(100vw - 1.5rem));
+        max-width: min(18rem, calc(100vw - 1.5rem));
+        max-height: 70vh;
+        overflow-y: auto;
+        padding: 0;
+        margin: 0;
+        border: 0;
+        background: transparent;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-0.4rem);
+        transition: opacity 0.2s ease, transform 0.2s ease;
+      }
+
+      aside.toc-nav.open {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
+        padding: 0.75rem;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: 0.8rem;
+        background: rgba(17, 17, 24, 0.97);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      }
+
+      aside.toc-nav .page_toc {
+        margin: 0;
       }
     }
   </style>
@@ -142,17 +234,58 @@
             }
           }
 
+          function setupMobileToc() {
+            const toc = document.querySelector('aside.toc-nav');
+            if (!toc) return;
+
+            let button = document.querySelector('.toc-toggle');
+            if (!button) {
+              button = document.createElement('button');
+              button.type = 'button';
+              button.className = 'toc-toggle';
+              button.setAttribute('aria-label', 'Toggle table of contents');
+              button.innerHTML = '<span></span><span></span><span></span>';
+              button.addEventListener('click', () => {
+                const isOpen = toc.classList.toggle('open');
+                button.classList.toggle('active', isOpen);
+              });
+              document.body.appendChild(button);
+            }
+
+            const hasMeaningfulToc = toc.querySelectorAll('.page_toc a').length > 1;
+            const isMobile = window.innerWidth <= 1299;
+            if (isMobile && hasMeaningfulToc) {
+              button.style.display = 'inline-flex';
+              toc.classList.remove('open');
+              button.classList.remove('active');
+            } else {
+              button.style.display = 'none';
+              toc.classList.remove('open');
+              button.classList.remove('active');
+            }
+          }
+
           hook.ready(function () {
             setTimeout(updateNavbarVisibility, 0);
+            setTimeout(setupMobileToc, 0);
           });
 
-          hook.mounted(updateNavbarVisibility);
-          hook.doneEach(updateNavbarVisibility);
+          hook.mounted(function () {
+            updateNavbarVisibility();
+            setupMobileToc();
+          });
+
+          hook.doneEach(function () {
+            updateNavbarVisibility();
+            setTimeout(setupMobileToc, 0);
+          });
+
+          window.addEventListener('resize', setupMobileToc);
         }
       ],
       toc: {
         tocMaxLevel: 5,
-        target: 'h2, h3, h4, h5, h6',
+        target: 'h1, h2, h3',
         ignoreHeaders:  ['<!-- {docsify-ignore} -->', '<!-- {docsify-ignore-all} -->']
       }
     }
